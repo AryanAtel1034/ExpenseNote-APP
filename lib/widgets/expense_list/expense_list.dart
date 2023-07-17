@@ -14,7 +14,7 @@ class ExpenseList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 20),
+      margin: const EdgeInsets.only(top: 21),
       child: ListView.builder(
         itemCount: expenses.length,
         itemBuilder: (ctx, index) => Dismissible(
